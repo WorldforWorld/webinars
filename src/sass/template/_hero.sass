@@ -1,0 +1,88 @@
+.hero
+  margin-top: 15px
+  &__direction
+    display: flex
+    flex-direction: column
+  &__tab 
+    overflow: hidden
+    margin-right: auto
+    margin-left: 6%
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: flex-end
+    & button 
+      padding: 14px 2px
+      padding-bottom: 4px
+      margin-right: 28px
+      background-color: inherit
+      float: left
+      border: none
+      outline: none
+      cursor: pointer
+      transition: 0.3s
+      font-style: normal
+      font-weight: 500
+      font-size: 16px
+      line-height: 20px
+      color: #30404F
+      &:hover 
+        border-bottom: 3px solid #56ADFE
+      &.active 
+        border-bottom: 3px solid #56ADFE
+  &__tabcontent 
+    display: none
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: center
+    margin-top: 45px
+    margin-left: -16px
+    margin-right: -16px
+  &__card
+    position: relative
+    display: flex
+    flex-direction: row
+    align-items: center
+    max-width: 552px
+    margin: 16px
+    box-shadow: 0px 13px 37px rgba(114, 124, 138, 0.12)
+    border-radius: 12px
+  &__image
+    border-radius: 12px 0px 0px 12px
+  &__text
+    margin-right: 30px
+    margin-left: 32px
+  &__record
+    position: absolute
+    left: 16px
+    top: 16px
+    padding: 6px 29px
+    font-style: normal
+    font-weight: 600
+    font-size: 14px
+    line-height: 140%
+    text-decoration: none
+    background: #FFFFFF
+    border-radius: 12px
+    color: #56ADFE
+  &__date
+    font-style: normal
+    font-weight: 600
+    font-size: 14px
+    line-height: 140%
+    color: #FE912C
+  &__title
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    line-height: 140%
+    color: #30404F
+  &__description
+    font-style: normal
+    font-weight: 500
+    font-size: 14px
+    line-height: 140%
+    color: #646464
+#everything
+  display: flex
+      
